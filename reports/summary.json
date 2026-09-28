@@ -1,0 +1,30 @@
+{
+  "chosen": "Logistic Regression",
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "cv_roc_auc (mean \u00b1 sd)": "0.846 \u00b1 0.013",
+      "test_roc_auc [95% CI]": "0.842 [0.819, 0.862]",
+      "test_pr_auc": "0.634",
+      "brier": "0.138"
+    },
+    {
+      "model": "Random Forest",
+      "cv_roc_auc (mean \u00b1 sd)": "0.847 \u00b1 0.009",
+      "test_roc_auc [95% CI]": "0.845 [0.823, 0.865]",
+      "test_pr_auc": "0.658",
+      "brier": "0.135"
+    },
+    {
+      "model": "Gradient Boosting",
+      "cv_roc_auc (mean \u00b1 sd)": "0.846 \u00b1 0.010",
+      "test_roc_auc [95% CI]": "0.840 [0.817, 0.861]",
+      "test_pr_auc": "0.651",
+      "brier": "0.137"
+    }
+  ],
+  "test_auc": 0.8419695678007698,
+  "base_rate": 0.2654364797728886,
+  "top_decile_lift": "2.83x",
+  "top30_capture": "65%"
+}
